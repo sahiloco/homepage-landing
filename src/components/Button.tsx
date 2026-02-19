@@ -5,7 +5,7 @@ export type ButtonType = {
   className?: string;
 
   /** Variant props */
-  property1?: CSSProperties["property1"];
+  property1?: string;
 };
 
 const Button: FunctionComponent<ButtonType> = ({
