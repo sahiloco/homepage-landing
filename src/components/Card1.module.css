@@ -1,0 +1,111 @@
+.card {
+  flex: 1;
+  box-shadow: var(--shadow-drop);
+  border-radius: var(--br-45);
+  background-color: var(--color-white);
+  border: var(--border-1);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-39) var(--padding-20);
+  min-width: var(--min-w-310);
+  max-width: var(--max-w-387);
+  text-align: left;
+  font-size: var(--fs-20);
+  color: var(--Black);
+  font-family: var(--font-space-grotesk);
+}
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-28);
+  max-width: var(--max-w-316_7);
+}
+.person {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-19_9);
+}
+.assetIcon {
+  height: var(--height-102_8);
+  width: var(--width-102_8);
+  position: relative;
+  object-fit: cover;
+}
+.personColumn1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 19.6px;
+  min-width: var(--min-w-126);
+}
+.socialIcon {
+  width: var(--width-34);
+  height: var(--height-34);
+  position: relative;
+  object-fit: cover;
+}
+.name {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2px;
+}
+.janeDoe {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.directorOfOperations {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--fs-18);
+}
+.contentChild {
+  align-self: stretch;
+  height: var(--height-0);
+  position: relative;
+  border-top: var(--border-2);
+  box-sizing: border-box;
+}
+.yearsOfExperience {
+  width: 100%;
+  position: relative;
+  font-size: var(--fs-18);
+  display: inline-block;
+  max-width: var(--max-w-316_7);
+}
+
+@media screen and (max-width: 1200px) {
+  .card {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .card {
+    max-width: 100%;
+  }
+
+  .person {
+    flex-wrap: wrap;
+  }
+
+  .assetIcon {
+    flex: 1;
+  }
+
+  .janeDoe {
+    font-size: var(--fs-16);
+  }
+}

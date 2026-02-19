@@ -1,0 +1,20 @@
+.button {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-20) var(--padding-35);
+  background-color: var(--Dark);
+  width: var(--width-556);
+  border-radius: var(--br-14);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.label {
+  position: relative;
+  font-size: var(--fs-20);
+  line-height: var(--lh-28);
+  font-family: var(--font-space-grotesk);
+  color: var(--color-white);
+  text-align: center;
+}

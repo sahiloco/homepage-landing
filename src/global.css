@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:ital,wght@0,400;0,500&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* Common Style Variables */
+
+  /* Color */
+  --Black: #000;
+  --color-dimgray-100: #4d4d57;
+  --color-dimgray-200: rgba(77, 77, 87, 0.09);
+  --color-gray-100: #898989;
+  --color-gray-200: #292a32;
+  --color-white: #fff;
+  --color-yellowgreen: #a1e64d;
+  --Dark: #191a23;
+  --Green: #b9ff66;
+  --Grey: #f3f3f3;
+
+  /* Gap */
+  --gap-4: 4px;
+  --gap-5: 5px;
+  --gap-10: 10px;
+  --gap-14: 14px;
+  --gap-15: 15px;
+  --gap-16: 16px;
+  --gap-17: 17px;
+  --gap-20: 20px;
+  --gap-22: 22px;
+  --gap-28: 28px;
+  --gap-30: 30px;
+  --gap-32: 32px;
+  --gap-35: 35px;
+  --gap-40: 40px;
+  --gap-64: 64px;
+  --gap-93: 93px;
+  --gap-100: 100px;
+  --gap-19_9: 19.9px;
+
+  /* Padding */
+  --padding-0: 0px;
+  --padding-01: 0;
+  --padding-2: 2px;
+  --padding-5: 5px;
+  --padding-7: 7px;
+  --padding-16: 16px;
+  --padding-18: 18px;
+  --padding-19: 19px;
+  --padding-20: 20px;
+  --padding-25: 25px;
+  --padding-30: 30px;
+  --padding-32: 32px;
+  --padding-35: 35px;
+  --padding-39: 39px;
+  --padding-40: 40px;
+  --padding-49: 49px;
+  --padding-50: 50px;
+  --padding-60: 60px;
+  --padding-80: 80px;
+  --padding-100: 100px;
+
+  /* BorderRadius */
+  --br-7: 7px;
+  --br-14: 14px;
+  --br-45: 45px;
+
+  /* Font */
+  --font-space-grotesk: Space Grotesk;
+
+  /* FontSize */
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-20: 20px;
+  --fs-24: 24px;
+  --fs-30: 30px;
+  --fs-32: 32px;
+  --fs-36: 36px;
+  --fs-40: 40px;
+  --fs-48: 48px;
+  --fs-60: 60px;
+
+  /* Borders */
+  --border-1: 1px solid var(--Dark);
+  --border-2: 1px solid var(--Black);
+
+  /* Shadows */
+  --shadow-drop: 0px 5px 0px var(--Dark);
+
+  /* WidthHeights */
+  --height-0: 0px;
+  --height-10: 10px;
+  --height-23: 23px;
+  --height-28: 28px;
+  --height-30: 30px;
+  --height-34: 34px;
+  --height-41: 41px;
+  --height-48: 48px;
+  --height-102_8: 102.8px;
+  --max-w-286: 286px;
+  --max-w-387: 387px;
+  --max-w-600: 600px;
+  --max-w-1240: 1240px;
+  --max-w-316_7: 316.7px;
+  --min-w-126: 126px;
+  --min-w-250: 250px;
+  --min-w-310: 310px;
+  --min-w-466: 466px;
+  --width-28: 28px;
+  --width-30: 30px;
+  --width-34: 34px;
+  --width-41: 41px;
+  --width-210: 210px;
+  --width-556: 556px;
+  --width-102_8: 102.8px;
+  --width-17_3: 17.3px;
+
+  /* LineHeights */
+  --lh-22: 22px;
+  --lh-28: 28px;
+}
